@@ -1,0 +1,62 @@
+body {
+  font-family: "Nunito Sans", sans-serif !important;
+}
+body::before {
+  display: block;
+  content: "";
+  height: 3.625rem;
+}
+h1 {
+  font-weight: 700;
+}
+
+/* utilities */
+.btn-circle {
+  border-radius: 10rem;
+  padding: 0.5rem 2rem;
+}
+.service-1__card {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border: none;
+}
+.clients-img-icon {
+  max-width: 10rem;
+}
+
+.clients-title {
+  font-size: 0.9rem;
+}
+
+.team-container {
+  background-color: #f8fafc;
+  box-shadow: 0px 16px 48px #00000029;
+  border-radius: 1.5rem;
+}
+.team-star-icon {
+  max-width: 2rem;
+}
+.team-rating-icon {
+  color: #f9c46e;
+}
+.team-card-title {
+  font-size: 0.813rem;
+}
+.team-card-text {
+  color: #615c5c;
+  font-size: 0.813rem;
+}
+
+.team-card {
+  border: 0;
+  box-shadow: 0px 16px 48px #00000029;
+  border-radius: 1.875rem;
+}
+.team-card-container {
+  margin-bottom: -10rem;
+}
+@media (min-width: 992px) {
+  .team-card-container {
+    margin-left: 3rem;
+  }
+}
